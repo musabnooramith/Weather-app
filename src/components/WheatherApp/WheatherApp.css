@@ -1,0 +1,131 @@
+.container{
+    width:607px;
+    height: 849px;
+    margin: auto;
+    margin-top:75px;
+    margin-bottom: 75px;
+    border-radius: 12px;
+    background-image: linear-gradient(180deg, rgb(96, 85, 255) 0%,rgb(37, 43, 122)100%); 
+      
+}
+
+.topbar{
+    display:flex;
+    justify-content:center;
+    gap:14px;
+   padding-top: 60px;
+}
+
+.topbar input{
+    display: flex;
+    width: 362px;
+    height: 78px;
+    background: whitesmoke;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 40px;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 78px;
+    height: 78px;
+    background:whitesmoke ;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.wheather-image{
+    margin-top: 29px;
+    display: flex;
+    justify-content: center;
+}
+
+.wheather-temp{
+    display:flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 120px;
+    font-weight: 400;
+}
+
+.wheather-location{
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.data-container{
+    margin-top:50px;
+    display: flex;
+    color: whitesmoke;
+    justify-content: center;
+}
+
+.element{
+   margin: auto;
+   display: flex;
+   align-items: flex-start;
+   gap: 12px;
+}
+
+.data{
+ font-size: 34px;
+ font-weight: 400;
+}
+
+.text{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.icon{
+    margin-top: 10px;
+}
+
+@media screen and (max-width:768px){
+    .container{
+        margin-top: 40px;
+        width:407px;
+        height: 609px;
+        margin-bottom: 40px;
+    }
+    .topbar{
+        padding-top: 30px;
+    }
+    .topbar input{
+        width: 200px;
+        height: 50px;
+        border-radius: 30px;       
+    }
+    .search{
+        height: 48px;
+        width: 48px;
+        border-radius: 30px;
+    }
+    .wheather-image img{      
+        width: 180px;
+        height: 180px;
+    }
+    .wheather-temp{
+        font-size: 80px;
+    }
+    .wheather-location{
+        font-size: 50px;
+    }
+    .data{
+        font-size: 24px;  
+       }
+       
+       .text{
+           font-size: 20px; 
+       }
+}
